@@ -35,8 +35,24 @@ else:
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+number = int(input("Enter your number: "))
+if 50 <= number <= 100:
+    print("Number is between 50 and 100.")
+else:
+    print("Number is not between 50 and 100.")
 
-# Write an expression that checks if a number is NOT equal to 0 and greater than 10.
+x = int(input("Enter a number: "))
+print(50 <= x <= 100)
+
+
+# Write an expression that checks if a number is NOT equal to 0 and greater than 10
+number1 = int(input("What is your number? :"))
+if number1 == 0:
+    print("Number is equal to 0")
+elif number1 > 10:
+    print("Number is greater than 10")
+else:
+    print("Number is not equal to 0, and is not greater than 10")
 
 # Use chained comparison to check if 3 < 4 < 5.
 
