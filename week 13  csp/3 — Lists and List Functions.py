@@ -81,6 +81,12 @@ print(sorted_list)
 newer_list = sorted_list[::3]
 print(newer_list)
 
+#Summary of list functions
+# .append(item) -- adds an item to the end of the list
+# .pop(index) -- removes and returns the item at the specified Index
+# .sort() -- sorts the list in ascending order
+# .reverse() -- reverses the order of the list
+
 # my_list = ['apple', 'banana', 'cherry']
 # print(my_list[0])         # apple
 # print(my_list[1:])        # ['banana', 'cherry']
