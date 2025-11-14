@@ -3,8 +3,40 @@
 
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
+#lists are part of collections family in Python'
+#Creating a list
 
-# Examples:
+#collections are used to store multiple items in a single variable
+#lists are mutable, meaning you can change their content
+#lists are created using square brackets []
+my_list1 = [1,2,3,4,5]
+print(my_list1) # [1, 2, 3, 4, 5]
+print(type(my_list1)) # <class 'list'>
+#Instead of typing a bunch of variables we can store them in a list.
+#This makes our job easier when we need to manage multiple itmes.
+#performance task answer
+#Access elements
+print(my_list1[0]) #1
+print(my_list1[1:4]) #[2,3,4]
+print(my_list1[0:]) #[1, 2, 3, 4, 5]
+#Modifying lists
+#Adding an item to the end of the list
+my_list1.append(6)
+print(my_list1) # [1, 2, 3, 4, 5, 6]
+my_list1.extend([10,11,12,13,14])
+print(my_list1)
+# my_list1.append(7)
+# print(my_list1) # [1, 2, 3, 4, 5, 6, 7]
+# my_list1.append(8)
+# print(my_list1) # [1, 2, 3, 4, 5, 6, 7, 8]
+#  # Examples:
+#add 500 more numbers to the list
+my_list1.extend(list(range(15,515)))
+print(my_list1)
+#add 600 more
+my_list1.extend(list(range(515, 1115)))
+print(my_list1)
+
 
 my_list = ['apple', 'banana', 'cherry']
 print(my_list[0])         # apple
